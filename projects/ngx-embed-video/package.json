@@ -9,7 +9,7 @@
     "tslib": "^2.0.0"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/whatnowtravel"
+    "registry":"https://registry.npmjs.org/whatnowtravel"
   },
   "repository" : {
     "type" : "git",

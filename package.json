@@ -14,7 +14,7 @@
     "directory": "projects/ngx-embed-video"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/whatnowtravel"
+    "registry":"https://registry.npmjs.org/whatnowtravel"
   },
   "private": false,
   "dependencies": {
