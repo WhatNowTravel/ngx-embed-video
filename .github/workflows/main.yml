@@ -21,7 +21,11 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - name: NPM Publish
-        # You may pin to the exact commit or the version.
-        # uses: JS-DevTools/npm-publish@18351461ae08dde235c0ccee0633ec905f0b9a52
-        uses: JS-DevTools/npm-publish@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 10
+      - run: npm install
+      - run: npm test
+      - uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
