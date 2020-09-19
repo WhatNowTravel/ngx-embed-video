@@ -1,5 +1,5 @@
 {
-  "name": "ngx-embed-video",
+  "name": "@whatnowtravel/ngx-embed-video",
   "version": "1.1.0",
   "peerDependencies": {
     "@angular/common": "^10.1.2",
@@ -12,8 +12,19 @@
     "registry":"https://registry.npmjs.org/whatnowtravel"
   },
   "repository" : {
-    "type" : "git",
-    "url": "ssh://git@github.com/whatnowtravel/ngx-embed-video.git",
+    "type": "git",
+    "url": "git+ssh://git@github.com/whatnowtravel/ngx-embed-video.git",
     "directory": "projects/ngx-embed-video"
-  }
+  },
+  "description": "> Get embed code for embedding youtube/vimeo/dailymotion/\\* video in websites from URL or ID in Angular 10+. > Currently supports YouTube, Vimeo and Dailymotion. Feel free to make pull request to add others!",
+  "bugs": {
+    "url": "https://github.com/whatnowtravel/ngx-embed-video/issues"
+  },
+  "homepage": "https://github.com/whatnowtravel/ngx-embed-video#readme",
+  "main": "index.js",
+  "keywords": [
+    "angular"
+  ],
+  "author": "Deepak",
+  "license": "MIT"
 }
