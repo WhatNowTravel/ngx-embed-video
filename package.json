@@ -8,6 +8,14 @@
     "test": "ng test",
     "lint": "ng lint"
   },
+  "repository" : {
+    "type" : "git",
+    "url": "ssh://git@github.com/whatnowtravel/ngx-embed-video.git",
+    "directory": "projects/ngx-embed-video"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~10.1.2",
