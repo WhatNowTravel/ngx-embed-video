@@ -16,7 +16,7 @@
   "publishConfig": {
     "registry":"https://npm.pkg.github.com"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "~10.1.2",
     "@angular/common": "~10.1.2",
